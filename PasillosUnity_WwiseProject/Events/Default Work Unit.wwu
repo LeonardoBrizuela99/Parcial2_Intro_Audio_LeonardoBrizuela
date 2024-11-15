@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B6EE8551-09AA-4F75-BD4F-3A6176372FFD}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B6EE8551-09AA-4F75-BD4F-3A6176372FFD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="ambience" ID="{44A6EF78-A505-45AB-A3FD-520850D567ED}">
+					<ChildrenList>
+						<Action Name="" ID="{9C74F444-DB56-424B-A798-C5BA87DF61B6}" ShortID="82484213">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience" ID="{3C638426-2E63-4C9D-8450-7C516E1B166B}" WorkUnitID="{7E1DAD48-F2BB-42B5-85A5-58BFCE4851C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_nota" ID="{7EE4AAC3-4A90-45D9-A8E7-0F43AA8B46AC}">
+					<ChildrenList>
+						<Action Name="" ID="{B0BD50E3-F821-4A54-B5D0-825D2703C695}" ShortID="567312492">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="notas" ID="{304FB7CB-B7C0-456B-B94F-A7865463B814}" WorkUnitID="{7E1DAD48-F2BB-42B5-85A5-58BFCE4851C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_bounce" ID="{04F32950-159A-4D1A-88F4-588489309EFA}">
+					<ChildrenList>
+						<Action Name="" ID="{BEB3A7F9-099A-4C8F-97B1-710E2B54E853}" ShortID="770151970">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ball" ID="{7311FED5-F2A8-431A-A6FB-83DDFA49AD26}" WorkUnitID="{7E1DAD48-F2BB-42B5-85A5-58BFCE4851C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_steps" ID="{3EE9322C-C36A-4AA5-8B44-87899B5BB8F4}">
+					<ChildrenList>
+						<Action Name="" ID="{6DB077DC-F46D-41FF-9274-AD636B7A5199}" ShortID="1031522462">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_steps" ID="{4866CEA1-B894-40E2-9FBA-DB58A857F3F0}" WorkUnitID="{7E1DAD48-F2BB-42B5-85A5-58BFCE4851C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_steps" ID="{901283D7-8F59-4A82-BCDF-B2E79AAD4DA0}">
+					<ChildrenList>
+						<Action Name="" ID="{C6D504D9-D801-41DA-AB21-945D6CC46964}" ShortID="228057609">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_steps" ID="{4866CEA1-B894-40E2-9FBA-DB58A857F3F0}" WorkUnitID="{7E1DAD48-F2BB-42B5-85A5-58BFCE4851C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_beat" ID="{30776D11-78A1-4473-84DA-0A7D6D90C4CA}">
+					<ChildrenList>
+						<Action Name="" ID="{44893279-4A7E-4FB8-BCA7-9B2FE4DC694C}" ShortID="743475852">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dubstep" ID="{CF2B1134-C190-4172-8048-180C353BC1D7}" WorkUnitID="{7E1DAD48-F2BB-42B5-85A5-58BFCE4851C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_concreteSteps" ID="{5FECFE9D-06C1-47A8-B34B-C1CA65F0A2C1}">
+					<ChildrenList>
+						<Action Name="" ID="{95F2D61E-4795-4E72-9060-048DC47D133E}" ShortID="704574444">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="concreteSteps" ID="{E0DC439C-59A2-4A50-87F7-26B1891591C3}" WorkUnitID="{7E1DAD48-F2BB-42B5-85A5-58BFCE4851C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_concreteSteps" ID="{C53B05CA-EE12-43C8-B5D5-1E85C95D3B68}">
+					<ChildrenList>
+						<Action Name="" ID="{8AE19CC9-DD26-4A50-AAFC-EC2F7F15E7E9}" ShortID="370887839">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="concreteSteps" ID="{E0DC439C-59A2-4A50-87F7-26B1891591C3}" WorkUnitID="{7E1DAD48-F2BB-42B5-85A5-58BFCE4851C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Bells" ID="{7B0E43A3-2ACC-4FD3-86D3-B1E199E5DDA2}">
+					<ChildrenList>
+						<Action Name="" ID="{30A96B42-5491-4BC4-B486-BB1BF2FD0664}" ShortID="113915159">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bell" ID="{E94D24FC-556C-45BF-95A8-64AA62E58711}" WorkUnitID="{7E1DAD48-F2BB-42B5-85A5-58BFCE4851C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

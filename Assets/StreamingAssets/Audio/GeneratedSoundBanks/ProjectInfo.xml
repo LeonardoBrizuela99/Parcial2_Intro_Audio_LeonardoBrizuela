@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="PasillosUnity_WwiseProject" GUID="{B92E3CF0-BB62-44FE-BB91-58B6CBED170D}" Generator="2022.1.15.8501"/>
+	<CacheRoot>../../../../PasillosUnity_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{0CC762D2-6642-47B6-8A77-C2E6C806B260}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../PasillosUnity_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{08926179-3888-4F6C-9452-2173FD090FE0}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../PasillosUnity_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{F6181E0E-B303-446D-867A-F187D5257C2F}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{6FF83FB0-ECEA-CC77-5F74-F083E5C49C0A}</FileHash>
+</ProjectInfo>

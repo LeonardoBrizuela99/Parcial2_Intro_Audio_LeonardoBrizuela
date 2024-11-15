@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4F35BAA8-77FD-404D-84AF-4729C97D21BE}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{4F35BAA8-77FD-404D-84AF-4729C97D21BE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="main" ID="{BC073341-8A87-401E-8675-BB89D4DC3BD1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_concreteSteps" ID="{C53B05CA-EE12-43C8-B5D5-1E85C95D3B68}" WorkUnitID="{B6EE8551-09AA-4F75-BD4F-3A6176372FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_beat" ID="{30776D11-78A1-4473-84DA-0A7D6D90C4CA}" WorkUnitID="{B6EE8551-09AA-4F75-BD4F-3A6176372FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ambience" ID="{44A6EF78-A505-45AB-A3FD-520850D567ED}" WorkUnitID="{B6EE8551-09AA-4F75-BD4F-3A6176372FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_nota" ID="{7EE4AAC3-4A90-45D9-A8E7-0F43AA8B46AC}" WorkUnitID="{B6EE8551-09AA-4F75-BD4F-3A6176372FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_concreteSteps" ID="{5FECFE9D-06C1-47A8-B34B-C1CA65F0A2C1}" WorkUnitID="{B6EE8551-09AA-4F75-BD4F-3A6176372FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_steps" ID="{901283D7-8F59-4A82-BCDF-B2E79AAD4DA0}" WorkUnitID="{B6EE8551-09AA-4F75-BD4F-3A6176372FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_steps" ID="{3EE9322C-C36A-4AA5-8B44-87899B5BB8F4}" WorkUnitID="{B6EE8551-09AA-4F75-BD4F-3A6176372FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_bounce" ID="{04F32950-159A-4D1A-88F4-588489309EFA}" WorkUnitID="{B6EE8551-09AA-4F75-BD4F-3A6176372FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Bells" ID="{7B0E43A3-2ACC-4FD3-86D3-B1E199E5DDA2}" WorkUnitID="{B6EE8551-09AA-4F75-BD4F-3A6176372FFD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

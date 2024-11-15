@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	85412153	ambience			\Default Work Unit\ambience	
+	204959010	Play_nota			\Default Work Unit\Play_nota	
+	1996054842	Play_beat			\Default Work Unit\Play_beat	
+	2324519816	Play_Bells			\Default Work Unit\Play_Bells	
+	2600469463	Play_steps			\Default Work Unit\Play_steps	
+	2634345273	Stop_steps			\Default Work Unit\Stop_steps	
+	3189331220	Play_concreteSteps			\Default Work Unit\Play_concreteSteps	
+	3465618802	Play_bounce			\Default Work Unit\Play_bounce	
+	3778654146	Stop_concreteSteps			\Default Work Unit\Stop_concreteSteps	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	162367090	nota_b	C:\Users\Leonardo\Desktop\PasillosUnity\PasillosUnity\PasillosUnity_WwiseProject\.cache\Mac\SFX\nota_b_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\notas\nota_b		708704
+	374413742	concreteSteps	C:\Users\Leonardo\Desktop\PasillosUnity\PasillosUnity\PasillosUnity_WwiseProject\.cache\Mac\SFX\concreteSteps_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\concreteSteps		728160
+	409817120	dubstep	C:\Users\Leonardo\Desktop\PasillosUnity\PasillosUnity\PasillosUnity_WwiseProject\.cache\Mac\SFX\dubstep_F7BA5AC6.wem		\Actor-Mixer Hierarchy\Default Work Unit\dubstep		612960
+	432643019	ambience	C:\Users\Leonardo\Desktop\PasillosUnity\PasillosUnity\PasillosUnity_WwiseProject\.cache\Mac\SFX\ambience_C5579977.wem		\Actor-Mixer Hierarchy\Default Work Unit\ambience		9172896
+	453641696	ding	C:\Users\Leonardo\Desktop\PasillosUnity\PasillosUnity\PasillosUnity_WwiseProject\.cache\Mac\SFX\ding_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\bell\ding		101472
+	485648229	player_steps	C:\Users\Leonardo\Desktop\PasillosUnity\PasillosUnity\PasillosUnity_WwiseProject\.cache\Mac\SFX\footsteps-cellar-26890_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\player_steps		3518304
+	498930831	ball	C:\Users\Leonardo\Desktop\PasillosUnity\PasillosUnity\PasillosUnity_WwiseProject\.cache\Mac\SFX\ball_5978172F.wem		\Actor-Mixer Hierarchy\Default Work Unit\ball		99464
+	526961761	little_bell	C:\Users\Leonardo\Desktop\PasillosUnity\PasillosUnity\PasillosUnity_WwiseProject\.cache\Mac\SFX\little_bell_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\bell\little_bell		142944
+	563002099	nota_d	C:\Users\Leonardo\Desktop\PasillosUnity\PasillosUnity\PasillosUnity_WwiseProject\.cache\Mac\SFX\nota_d_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\notas\nota_d		1540756
+	1031929291	bell	C:\Users\Leonardo\Desktop\PasillosUnity\PasillosUnity\PasillosUnity_WwiseProject\.cache\Mac\SFX\bell_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\bell\bell		633696
+	1035037472	nota_a	C:\Users\Leonardo\Desktop\PasillosUnity\PasillosUnity\PasillosUnity_WwiseProject\.cache\Mac\SFX\nota_a_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\notas\nota_a		1533724
+	1059931745	nota_c	C:\Users\Leonardo\Desktop\PasillosUnity\PasillosUnity\PasillosUnity_WwiseProject\.cache\Mac\SFX\nota_c_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\notas\nota_c		2117544
+

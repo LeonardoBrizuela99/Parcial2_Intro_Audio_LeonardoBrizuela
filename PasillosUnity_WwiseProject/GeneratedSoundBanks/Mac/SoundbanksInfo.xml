@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1A52045E-ADB9-59F9-B28C-F5FAAD888AEE}">
+			<ShortName>main</ShortName>
+			<Path>main.bnk</Path>
+			<Media>
+				<File Id="162367090" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>nota_b.wav</ShortName>
+					<CachePath>SFX/nota_b_10C4C929.wem</CachePath>
+				</File>
+				<File Id="374413742" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>concreteSteps.wav</ShortName>
+					<CachePath>SFX/concreteSteps_10C4C929.wem</CachePath>
+				</File>
+				<File Id="409817120" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>dubstep.wav</ShortName>
+					<CachePath>SFX/dubstep_F7BA5AC6.wem</CachePath>
+				</File>
+				<File Id="432643019" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambience.wav</ShortName>
+					<CachePath>SFX/ambience_C5579977.wem</CachePath>
+				</File>
+				<File Id="453641696" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ding.wav</ShortName>
+					<CachePath>SFX/ding_10C4C929.wem</CachePath>
+				</File>
+				<File Id="485648229" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps-cellar-26890.wav</ShortName>
+					<CachePath>SFX/footsteps-cellar-26890_10C4C929.wem</CachePath>
+				</File>
+				<File Id="498930831" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ball.wav</ShortName>
+					<CachePath>SFX/ball_5978172F.wem</CachePath>
+				</File>
+				<File Id="526961761" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>little_bell.wav</ShortName>
+					<CachePath>SFX/little_bell_10C4C929.wem</CachePath>
+				</File>
+				<File Id="563002099" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>nota_d.wav</ShortName>
+					<CachePath>SFX/nota_d_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1031929291" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>bell.wav</ShortName>
+					<CachePath>SFX/bell_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1035037472" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>nota_a.wav</ShortName>
+					<CachePath>SFX/nota_a_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1059931745" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>nota_c.wav</ShortName>
+					<CachePath>SFX/nota_c_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="85412153" Name="ambience" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="432643019"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1996054842" Name="Play_beat" MaxAttenuation="35" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="409817120"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2324519816" Name="Play_Bells" DurationType="OneShot" DurationMin="1.1493877" DurationMax="6.6">
+					<MediaRefs>
+						<MediaRef Id="453641696"/>
+						<MediaRef Id="526961761"/>
+						<MediaRef Id="1031929291"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3465618802" Name="Play_bounce" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="498930831"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3189331220" Name="Play_concreteSteps" DurationType="OneShot" DurationMin="7.584" DurationMax="7.584">
+					<MediaRefs>
+						<MediaRef Id="374413742"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="204959010" Name="Play_nota" DurationType="OneShot" DurationMin="4.017052" DurationMax="11.028375">
+					<MediaRefs>
+						<MediaRef Id="162367090"/>
+						<MediaRef Id="563002099"/>
+						<MediaRef Id="1035037472"/>
+						<MediaRef Id="1059931745"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2600469463" Name="Play_steps" DurationType="OneShot" DurationMin="36.648" DurationMax="36.648">
+					<MediaRefs>
+						<MediaRef Id="485648229"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3778654146" Name="Stop_concreteSteps" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2634345273" Name="Stop_steps" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{52C21DBB-6E34-1714-9A4B-9BBC3BCFB603}</FileHash>
+</SoundBanksInfo>

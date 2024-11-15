@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc8951fbed0db1040a9d0d997b14b257, type: 3}
+  m_Name: 30776D11-78A1-4473-84DA-0A7D6D90C4CA
+  m_EditorClassIdentifier: 
+  objectName: Play_beat
+  id: 1996054842
+  guid: 30776D11-78A1-4473-84DA-0A7D6D90C4CA
